@@ -1,0 +1,18 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 299px;
+    height: 223px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 20px #00000029;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 11px 10px;
+    padding-right: 9px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
