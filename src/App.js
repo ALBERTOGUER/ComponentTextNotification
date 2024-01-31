@@ -1,5 +1,5 @@
 import './App.css';
-import { TextNotification } from './components/card/TextNotification';
+import { TextNotification } from './components/textNotification/TextNotification';
 
 
 function App() {
