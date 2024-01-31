@@ -5,10 +5,18 @@ import { Chat } from '../chat/Chat';
 
 
 export const TextNotification = ({ textMessage, sendReply, navigateToInboxThread }) => {
+  const { from, text, threadId } = textMessage
   return (
     <div className='card'>
-      <Button />
-      <Chat/>
+      <Button 
+        navigateToInboxThread={navigateToInboxThread}
+        threadId={threadId}  
+      />
+      <Chat 
+        sendReply={sendReply}
+        from={from}
+        text={text}
+      />
     </div>
   )
 }
